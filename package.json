@@ -1,0 +1,30 @@
+{
+  "name": "aaron_js_utils",
+  "version": "1.0.0",
+  "description": "Publish for testing.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js --mode=production",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaeyoLin/common_utils.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JaeyoLin/common_utils/issues"
+  },
+  "homepage": "https://github.com/JaeyoLin/common_utils#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/node": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
